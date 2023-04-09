@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
  * binary_to_uint - Entry Point
  * @b: const char
@@ -30,3 +32,4 @@ unsigned int binary_to_uint(const char *b)
 	return (res);
 
 }
+
